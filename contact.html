@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <body>
+        <nav>
+            <img src="images/ShotBySean transp_Handwriting signature logo V1.png" class="logo" alt="" />
+            <ul class="nav">
+                <li><a href="index.html" class="nav-links">Home</a></li>
+                <li><a href="portfolio.html" class="nav-links">Portfolio</a></li>
+                <li><a href="about.html" class="nav-links">About</a></li>
+                <li><a href="contact.html" class="nav-links">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact-form">
+            <form action="/contact.php" class="form">
+                <p>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Name" name="name">
+                </p>
+                <p>
+                    <label for="email">Enter an E-Mail Address:</label>
+                    <input type="email" placeholder="E-Mail Address" id="email" name="email">
+                </p>
+                <p>
+                    <!-- Alternative way to label an input (less common) -->
+                    <label for="number">Number of Looks:</label>
+                    <input type="number" placeholder="enter a number" name="num" min="1" max="1000">
+
+                </p>
+                <p>
+                    <label for="booking">Target Booking Date:</label>
+                    <input type="date" id="booking" name="booking">
+                </p>
+                <p>
+                    <label for="requests">Any Special Requests?</label>
+                    <br>
+                    <textarea id="requests" rows="10" cols="40" name="Requests?"
+                        placeholder="Type something here"></textarea>
+                </p>
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Web Development by
+                <a href="http://www.seancarter.io">Sean Carter &#169; </a>
+            </p>
+        </div>
+
+    </body>
+
+</html>

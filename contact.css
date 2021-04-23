@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #8f8f8f;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .nav {
+      background-color: rgb(209, 209, 209);
+      text-align: right;
+      /* display: flex; 
+      justify-content: flex-end;
+      padding: 10px;
+  } */
+
+.logo {
+  width: 10%;
+  height: auto;
+}
+
+.nav li a {
+  text-decoration: none;
+  /* list-style: none; */
+  /* font-weight: 800; */
+  font-size: 24px;
+  color: #000;
+  /* margin: 10px; */
+  /* padding: 25px; */
+}
+
+.nav li a:hover {
+  transition: ease-in-out 0.2s;
+  border-bottom: 2px solid black;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;
+  background: rgb(145, 145, 145);
+  border-radius: 25px;
+}
+
+/* .form {
+  text-align: center;
+  margin-bottom: 2rem;
+} */
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10 0;
+  border: 1px solid rgb(83, 83, 83);
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #6b6b6b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #818181;
+  transition: 0.4s ease-in;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.copyright {
+  background-color: #000;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.copyright p {
+  color: #fff;
+  padding: 10px;
+}
+
+.copyright p a {
+  text-decoration: none;
+  color: #fff;
+}
